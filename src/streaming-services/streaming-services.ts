@@ -13,6 +13,7 @@ export interface StreamingService {
 	hostPatterns: string[];
 	hasScrobbler: boolean;
 	hasSync: boolean;
+	hasAutoSync: boolean;
 }
 
 export const streamingServices: Record<StreamingServiceId, StreamingService> = {
@@ -23,6 +24,7 @@ export const streamingServices: Record<StreamingServiceId, StreamingService> = {
 		hostPatterns: ['*://*.primevideo.com/*'],
 		hasScrobbler: true,
 		hasSync: false,
+		hasAutoSync: false,
 	},
 	'hbo-go': {
 		id: 'hbo-go',
@@ -31,6 +33,7 @@ export const streamingServices: Record<StreamingServiceId, StreamingService> = {
 		hostPatterns: ['*://*.hbogola.com/*', '*://*.hbogo.com.br/*'],
 		hasScrobbler: true,
 		hasSync: true,
+		hasAutoSync: true,
 	},
 	netflix: {
 		id: 'netflix',
@@ -39,6 +42,7 @@ export const streamingServices: Record<StreamingServiceId, StreamingService> = {
 		hostPatterns: ['*://*.netflix.com/*'],
 		hasScrobbler: true,
 		hasSync: true,
+		hasAutoSync: true,
 	},
 	nrk: {
 		id: 'nrk',
@@ -47,6 +51,7 @@ export const streamingServices: Record<StreamingServiceId, StreamingService> = {
 		hostPatterns: ['*://*.nrk.no/*'],
 		hasScrobbler: true,
 		hasSync: true,
+		hasAutoSync: true,
 	},
 	viaplay: {
 		id: 'viaplay',
@@ -61,6 +66,7 @@ export const streamingServices: Record<StreamingServiceId, StreamingService> = {
 		],
 		hasScrobbler: false,
 		hasSync: true,
+		hasAutoSync: true,
 	},
 	'telia-play': {
 		id: 'telia-play',
@@ -69,5 +75,6 @@ export const streamingServices: Record<StreamingServiceId, StreamingService> = {
 		hostPatterns: ['*://*.teliaplay.se/*', '*://*.telia.net/*', '*://*.telia.se/*'],
 		hasScrobbler: false,
 		hasSync: true,
+		hasAutoSync: false,
 	},
 };
