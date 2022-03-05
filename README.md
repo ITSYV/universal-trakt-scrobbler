@@ -62,14 +62,19 @@ If you want to scrobble / sync from Netflix, this is the only Trakt.tv [plugin](
 |   Amazon Prime    |    ✔️    |  ✔️  | -           |
 |    DisneyPlus     |    ✔️    |  ❌  | -           |
 |     GoPlay BE     |    ✔️    |  ❌  | -           |
+|      HBO Go       |    ✔️    |  ❌  | -           |
 |      HBO Max      |    ✔️    |  ✔️  | -           |
+|     Kijk.nl       |    ✔️    |  ❌  | -           |
 |      Netflix      |    ✔️    |  ✔️  | -           |
 |        NRK        |    ✔️    |  ✔️  | -           |
+|     Player.pl     |    ✔️    |  ❌  | -           |
+|     Polsatbox Go  |    ✔️    |  ❌  | -           |
 |    Streamz BE     |    ✔️    |  ❌  | -           |
 |    Telia Play     |    ❌    |  ✔️  | -           |
 |      Viaplay      |    ✔️    |  ✔️  | -           |
 |     VRTNu BE      |    ✔️    |  ❌  | -           |
 |     VTMGo BE      |    ✔️    |  ❌  | -           |
+|     Wakanim TV    |    ✔️    |  ❌  | -           |
 
 <!-- services-end -->
 
